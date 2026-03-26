@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>泰国斗鱼 · 校园价格表</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+
+        body {
+            background-color: #f7f9fc;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .title {
+            text-align: center;
+            font-size: 24px;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 14px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .item-name {
+            font-size: 16px;
+            color: #2c3e50;
+            font-weight: 500;
+        }
+
+        .item-desc {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-top: 4px;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #e74c3c;
+            text-align: right;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1976d2;
+            font-size: 12px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 6px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="title">泰国斗鱼 · 校园价格表</div>
+    <div class="subtitle">南职大校内包送 | 包活 | 可指导饲养</div>
+
+    <div class="item">
+        <div>
+            <div class="item-name">半月斗鱼（随机色）✅</div>
+            <div class="item-desc">颜值高、适合新手、好养活（积木鱼缸、鱼药、小包饲料、小灯两个、养鱼四件套）</div>
+        </div>
+        <div class="price">28.0 元</div>
+    </div>
+
+    <div class="item">
+        <div>
+            <div class="item-name">半月斗鱼（精选色，可指定）✅</div>
+            <div class="item-desc">颜色更艳、尾巴更大（积木鱼缸、鱼药、小包饲料、小灯两个、养鱼四件套）</div>
+        </div>
+        <div class="price">35.0 元</div>
+    </div>
+
+    <div class="item">
+        <div>
+            <div class="item-name">狮王斗鱼（随机色）✅</div>
+            <div class="item-desc">纹路霸气、体质强（积木鱼缸、鱼药、小包饲料、小灯两个、养鱼四件套）</div>
+        </div>
+        <div class="price">28.0 元</div>
+    </div>
+
+    <div class="item">
+        <div>
+            <div class="item-name">马尾斗鱼 <span class="tag">新手推荐</span></div>
+            <div class="item-desc">耐活、好养、性价比高（积木鱼缸+鱼食+水质稳定剂（榄仁叶））</div>
+        </div>
+        <div class="price">9.9 元</div>
+    </div>
+
+    <div class="item">
+        <div>
+            <div class="item-name">精品鱼缸套装（碎钻型、水晶型造景）✅</div>
+            <div class="item-desc">精选斗鱼 + 积木鱼缸 + 全套用品</div>
+        </div>
+        <div class="price">39.9 元</div>
+    </div>
+
+    <div class="item">
+        <div>
+            <div class="item-name">斗鱼豪华套餐（小型生态造景积木缸）✅</div>
+            <div class="item-desc">精选斗鱼 + 鱼缸 + 全套用品</div>
+        </div>
+        <div class="price">44.9 元</div>
+    </div>
+
+    <div class="footer">
+        <!-- 📍 免费包送：南宁职业技术大学<br>
+        ✅ 包活到手 | 养鱼问题随时问<br>
+        <a href="weixin://contacts/profile/zc2006AAA" style="color: #09BB07;text-decoration: none;"></a>
+        📱 微信: zc2006AAA(点击直接加我) -->
+        🌸 免费包送：南宁职业技术大学<br>
+   ✅ 包活到手 | 养鱼问题随时问<br>
+   <span>📞 微信：zc2006AAA</span>
+   <button onclick="copyToClipboard()" style="margin-left: 8px; padding: 2px 8px; font-size: 12px; cursor: pointer;">
+     点击复制
+   </button>
+ </div>
+ <script>
+ function copyToClipboard() {
+   // 创建一个临时文本框
+   const tempInput = document.createElement("input");
+   tempInput.value = "zc2006AAA";
+   document.body.appendChild(tempInput);
+   tempInput.select();
+   document.execCommand("copy");
+   document.body.removeChild(tempInput);
+   alert("微信号已复制！快去微信添加我吧~");
+ }
+ </script>
+    </div>
+</div>
+
+</body>
+</html>
